@@ -13,7 +13,7 @@ class BmiResultScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: isMale?Colors.blue:Colors.red,
+      backgroundColor: isMale?Color(0xff204891):Color(0xffef65a3),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
